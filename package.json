@@ -1,0 +1,29 @@
+{
+  "name": "vue-ts",
+  "version": "1.0.0",
+  "description": "从 0 开始搭建 vue-ts 项目框架再实践。",
+  "main": "index.js",
+  "dependencies": {
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "@vue/cli": "^3.7.0",
+    "clean-webpack-plugin": "^2.0.2",
+    "html-webpack-plugin": "^3.2.0",
+    "ts-loader": "^6.0.0",
+    "typescript": "^3.4.5",
+    "vue-loader": "^15.7.0",
+    "vue-template-compiler": "^2.6.10",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config config/webpack.config.js --env.production"
+  },
+  "keywords": [
+    "vue、ts"
+  ],
+  "author": "gumx",
+  "license": "ISC"
+}
